@@ -1,8 +1,73 @@
 @charset "UTD-8";
 
-/* 
-    #07563c
-    #5ba270
-    #9cc9af
+:root {
+    --cor1:#07563c;
+    --cor2:#5ba270;
+    --cor3:#9cc9af;
+    --cor4:#000000;
+    --cor5:#ffffff;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: var(--cor1);
+}
+
+#login-box {
+    background-color: white;
+    width: 300px;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#imagem {
+    height: 200px;
+    background: url(../imagens/planta.jpg) no-repeat center center;
+    background-size: cover;
     
-*/
+}
+
+#formulario {
+    height: 320px;
+}
+
+#formulario > h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+#formulario > p {
+    padding: 0px 10px 10px 10px;
+}
+
+#formulario > form > div > span {
+    background-color: #07563c;
+    padding: 3px;
+    margin-left: 10px;
+}
+
+#isenha, #iemail {
+    height: 24px;
+    border: 2px solid var(--cor1);
+}
+
+.botao {
+    display: block;
+    width: 169px;
+    margin: 10px auto;
+    height: 24px;
+}
+
+#teste {
+    text-align: center;
+    width: 220px;
+    margin-left: 25px;
+}
