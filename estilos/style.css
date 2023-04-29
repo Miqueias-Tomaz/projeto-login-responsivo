@@ -84,6 +84,9 @@ input {
     height: 30px;
 }
 
+#isenha, #iemail {
+    width: 80%;
+}
 
 .botao {
     display: block;

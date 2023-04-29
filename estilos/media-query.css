@@ -4,4 +4,13 @@
     body {
         background-image: linear-gradient(#07563c, #5ba270);
     }
+
+    #login-box {
+        width: 80%;
+        height: 500px;
+    }
+
+    #isenha, #iemail {
+        width: 90%;
+    }
 }
