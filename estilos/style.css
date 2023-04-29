@@ -20,7 +20,7 @@ html, body {
 }
 
 #login-box {
-    background-color: white;
+    background-color: var(--cor5);
     width: 300px;
     margin: auto;
     margin-top: 5%;
@@ -30,13 +30,13 @@ html, body {
 
 #imagem {
     height: 200px;
-    background: url(../imagens/planta.jpg) no-repeat center center;
+    background: url(../imagens/planta.jpg) var(--cor1) no-repeat center center;
     background-size: cover;
     
 }
 
 #formulario {
-    height: 320px;
+    height: 340px;
 }
 
 #formulario > h1 {
@@ -48,26 +48,52 @@ html, body {
     padding: 0px 10px 10px 10px;
 }
 
+form > div > span {
+ color: var(--cor5);
+}
+
+.login-area {
+    background-color: var(--cor1);
+    width: 80%;
+    margin: auto;
+}
+
+label {
+    display: none;
+}
+
 #formulario > form > div > span {
-    background-color: #07563c;
+    background-color: var(--cor1);
     padding: 3px;
     margin-left: 10px;
 }
 
-#isenha, #iemail {
-    height: 24px;
-    border: 2px solid var(--cor1);
+.login-area {
+    height: 50px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 5px;
 }
+
+input {
+    height: 30px;
+}
+
 
 .botao {
     display: block;
-    width: 169px;
-    margin: 10px auto;
-    height: 24px;
+    width: 90%;
+    margin: 5px auto;
+    height: 40px;
+    color: white;
+    background-color: var(--cor1);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
 }
 
-#teste {
-    text-align: center;
-    width: 220px;
-    margin-left: 25px;
+
+.botao:hover {
+    background-color: var(--cor2);
 }
