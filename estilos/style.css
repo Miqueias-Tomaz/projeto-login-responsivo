@@ -101,7 +101,6 @@ input {
     font-size: 1em;
 }
 
-
 .botao:hover {
     background-color: var(--cor2);
 }
