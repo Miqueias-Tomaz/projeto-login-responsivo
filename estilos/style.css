@@ -55,6 +55,7 @@ html, body {
 
 form > div > span {
  color: var(--cor5);
+ transform: translateY(10px);
 }
 
 .login-area {
@@ -75,17 +76,25 @@ label {
 
 .login-area {
     height: 50px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: auto;
     margin-top: 5px;
 }
 
 input {
-    height: 30px;
+    height: 88%;
+    transform: translateY(2px);
+    border-radius: 8px;
+    border: var(--cor1);
 }
 
 #isenha, #iemail {
     width: 80%;
+    background-color: var(--cor3);
+}
+
+#isenha:focus-within, #iemail:focus-within {
+    background-color: white;
 }
 
 .botao {

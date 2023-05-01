@@ -7,7 +7,7 @@
 
     #login-box {
         width: 70%;
-        height: 400px;
+        height: 360px;
     }
 
     div#imagem {
@@ -21,19 +21,29 @@
         width: 70%;
         height: 100%;
         margin-top: 70px;
+        transform: translateY(-50px);
     }
 
-    .botao {
-        width: 50%;
+    .login-area {
+        width: 86%;
     }
-    
-    #login-area {
-        width: 300px;
+
+    #isenha, #iemail {
+        width: 86%;
     }
+
 }
-
 @media screen and (min-width: 1200px) {
     #login-box {
         width: 50%;
-}
+        height: 360px;
+    }
+
+    .login-area {
+        width: 86%;
+    }
+
+    #isenha, #iemail {
+        width: 86%;
+    }
 }
